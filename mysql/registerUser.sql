@@ -40,7 +40,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`id`, `login`, `name`, `password`, `registration_date`) VALUES
-(25, 'admin_egor', 'qwert', 'qwert', '2023-08-13 23:25:14');
+(25, 'none', 'none', 'none', '2023-08-13 23:25:14');
 
 -- --------------------------------------------------------
 
