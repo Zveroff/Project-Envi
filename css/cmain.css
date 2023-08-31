@@ -1,0 +1,87 @@
+.main {
+    padding: 20px;
+  }
+  
+  .catalog {
+    width: 50px;
+  }
+  .header {
+    background-color: #000000;
+    padding: 20px;
+  }
+  
+  .header-container {
+    max-width: 1200px;
+    margin: 20 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+  
+  .catalog-title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .catalog-list {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
+    gap: 20px;
+  } 
+  
+  .catalog-item {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .catalog-item-image {
+    width: 160px;
+    height: 170px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .catalog-item-title {
+    font-size: 28px;
+    margin-bottom: 3px;
+  }
+  
+  .catalog-item-price {
+    font-size: 20px;
+    margin-bottom: 3px;
+  }
+  
+  .catalog-item-size select {
+    width: 100%;
+    padding: 2px;
+    font-size: 19px;
+    margin-bottom: 3px;
+  }
+  
+  .catalog-item-button {
+    padding: 3px 3px;
+    font-size: 18px;
+    background-color: #ff0044;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    margin-top: auto;
+  }
+  
+  .catalog-item-button:hover {
+    background-color: #ff0044;
+  }
+

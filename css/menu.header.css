@@ -1,0 +1,158 @@
+/* Sidebar */
+.vip_sidebar {
+    padding: 50px 15px 60px 55px;
+    width: 252px;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    /* background-color: rgb(219, 219, 219); */
+}
+
+.vip_sidebar-logo {
+    margin-bottom: 57px;
+}
+
+/* Nav */
+
+.vip_nav-title {
+    margin-bottom: 44px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.vip_nav-list {
+    font-size: 15.71px;
+}
+
+.vip_nav-list li {
+    margin-bottom: 25px;
+    white-space: nowrap;
+}
+
+.vip_nav-list a {
+    transition: color 0.2s ease-in;
+}
+
+.vip_nav-list a:hover {
+    color: #FD2E24;
+}
+
+.vip_nav-list img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+
+    width: 26px;
+    height: auto;
+    object-fit: none;
+}
+
+/* main */
+
+.vip_main {
+    padding-top: 45px;
+    width: 1100px;
+}
+
+/* Header */
+
+.vip_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-bottom: 70px;
+}
+
+
+
+/* Nav header */
+
+.vip_nav-header {
+    font-size: 17px;
+    font-family: 'Circular Std';
+    font-weight: 500;
+    font-family: 'Mukta', sans-serif;font-family: 'REM', sans-serif;
+}
+
+.vip_nav-header-list {
+    display: flex;
+    align-items: center;
+}
+
+.vip_nav-header-link-text {
+    position: relative;
+}
+
+.vip_nav-header-link-text::after {
+    position: absolute;
+    left: 0;
+    width: 0%;
+    bottom: -9px;
+
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: black;
+
+    transition: width 0.2s ease-in;
+}
+
+.vip_nav-header-link-text:hover::after {
+    width: 100%;
+}
+
+.vip_nav-header-link-text.active::after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -9px;
+
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: black;
+}
+
+.nav-header-link-text + .nav-header-link-text {
+    margin-left: 42px;
+}
+
+.nav-header-link-text + .nav-header-link-icon {
+    margin-left: 50px;
+}
+
+.nav-header-link-icon + .nav-header-link-icon {
+    margin-left: 25px;
+}
+
+.footer_sait_bar {
+    margin-top: 250px;
+}
+.footer_sait_bar_icon {
+    margin-top: 10px;
+}
+.nav-header-link-text-vip {
+    margin-left: 30px;
+    float: right;
+    color: rgb(126, 126, 126);
+}
+.vip_otstup_reg_log {
+    margin-left: 320px; 
+    margin-right: -290px; 
+}
+
+.vip_otstup_profile_1 {
+    margin-top: 2px;
+    margin-right: 20px;
+    margin-left: 420px;
+}
+.vip_otstup_profile_2 {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
